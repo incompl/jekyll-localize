@@ -1,0 +1,4 @@
+# English
+
+global.title: "jekyll-localize example"
+global.body: "The language of this page is determined by the <code>lang</code> parameter in <code>_config.yml</code>."

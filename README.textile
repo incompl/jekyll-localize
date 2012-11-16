@@ -1,0 +1,13 @@
+A simple internationalization / localization plugin for "Jekyll":http://jekyllrb.com/
+
+To get started, put @localize.rb@ in your @_plugins@ folder.
+
+Add a @translations@ folder to your project with files named @en.yaml@, @es.yaml@, etc.
+
+In your "Liquid":http://liquidmarkup.org/ templates, put these little buggers everywhere:
+
+@
+{% localize global.body %}
+@
+
+See the @example@ directory for a working example.
