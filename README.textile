@@ -6,8 +6,6 @@ Add a @translations@ folder to your project with files named @en.yaml@, @es.yaml
 
 In your "Liquid":http://liquidmarkup.org/ templates, put these little buggers everywhere:
 
-@
-{% localize global.body %}
-@
+bc. {% localize global.body %}
 
 See the @example@ directory for a working example.
