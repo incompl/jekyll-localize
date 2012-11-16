@@ -1,4 +1,8 @@
+h2. What it is
+
 A simple internationalization / localization plugin for "Jekyll":http://jekyllrb.com/
+
+h2. How it works
 
 To get started, put @localize.rb@ in your @_plugins@ folder.
 
@@ -9,3 +13,19 @@ In your "Liquid":http://liquidmarkup.org/ templates, put these little buggers ev
 bc. {% localize global.body %}
 
 See the @example@ directory for a working example.
+
+h2. Bonus
+
+You can refer to variables in your "front matter":https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter like this:
+
+Translation File:
+
+bc. cavies.title: "My Cavies"
+
+Front Matter:
+
+bc. title: cavies.title
+
+Liquid Template:
+
+bc. {% page.title %}
