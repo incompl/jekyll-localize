@@ -41,3 +41,11 @@ bc. title: cavies.title
 Liquid Template:
 
 bc. {% page.title %}
+
+h2. Who uses it?
+
+I made this project for "LearnLayout":http://learnlayout.com. Let me know if you use it!
+
+h2. License
+
+"MIT":https://github.com/incompl/jekyll-localize/blob/master/LICENSE
