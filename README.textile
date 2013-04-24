@@ -2,7 +2,7 @@ h2. What it is
 
 An "internationalization / localization":http://en.wikipedia.org/wiki/Internationalization_and_localization plugin for "Jekyll":http://jekyllrb.com/. This is useful if you want to translate your site into multiple languages.
 
-h2. How it works
+h2. Getting Started
 
 To get started, put @localize.rb@ in your @_plugins@ folder.
 
