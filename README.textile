@@ -26,6 +26,10 @@ You can also (optionally) have a file in your @translations@ directory called @d
 
 If a translation is not provided in either the translation file or the defaults an empty string is used.
 
+h2. RTL
+
+You can put @rtl: true@ in your @_config.yaml@. The @{% rtl %}@ tag will output the current setting. You could use this in a number of ways, such as conditionally loading an RTL stylesheet.
+
 h2. Bonus
 
 You can refer to variables in your "front matter":https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter like this:
