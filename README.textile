@@ -1,6 +1,6 @@
 h2. What it is
 
-A simple internationalization / localization plugin for "Jekyll":http://jekyllrb.com/
+An internationalization / localization plugin for "Jekyll":http://jekyllrb.com/
 
 h2. How it works
 
@@ -8,11 +8,23 @@ To get started, put @localize.rb@ in your @_plugins@ folder.
 
 Add a @translations@ folder to your project with files named @en.yaml@, @es.yaml@, etc.
 
-In your "Liquid":http://liquidmarkup.org/ templates, put these little buggers everywhere:
+Put these in your translation files:
+
+bc. global.body: "Some text goes here"
+
+Put these in your "Liquid":http://liquidmarkup.org/ templates:
 
 bc. {% localize global.body %}
 
+The language in @_config.yaml@ will be used when you build.
+
 See the @example@ directory for a working example.
+
+h2. Defaults
+
+You can also (optionally) have a file in your @translations@ directory called @defaults.yaml@. This file includes translations that are used if a translation is not provided in the current language. This is useful for things like proper names, names of languages, or whatever makes sense in your project.
+
+If a translation is not provided in either the translation file or the defaults an empty string is used.
 
 h2. Bonus
 
