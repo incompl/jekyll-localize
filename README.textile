@@ -1,6 +1,6 @@
 h2. What it is
 
-An internationalization / localization plugin for "Jekyll":http://jekyllrb.com/
+An "internationalization / localization":http://en.wikipedia.org/wiki/Internationalization_and_localization plugin for "Jekyll":http://jekyllrb.com/. This is useful if you want to translate your site into multiple languages.
 
 h2. How it works
 
